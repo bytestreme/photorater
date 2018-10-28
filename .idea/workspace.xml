@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca7b522-f7e2-4b88-a2e2-2f9fb6c5d82d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback_actions/callback_dislike.py" beforeDir="false" afterPath="$PROJECT_DIR$/callback_actions/callback_dislike.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback_actions/callback_like.py" beforeDir="false" afterPath="$PROJECT_DIR$/callback_actions/callback_like.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback_actions/callback_lnk.py" beforeDir="false" afterPath="$PROJECT_DIR$/callback_actions/callback_lnk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback_actions/callback_stop_vote.py" beforeDir="false" afterPath="$PROJECT_DIR$/callback_actions/callback_stop_vote.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback_actions/callback_warn.py" beforeDir="false" afterPath="$PROJECT_DIR$/callback_actions/callback_warn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback_actions/delete_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/callback_actions/delete_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback_actions/profile_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/callback_actions/profile_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboard/profile/profile_kb_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboard/profile/profile_kb_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboard/rate/rating_kb_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboard/rate/rating_kb_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboard/upload/upload_kb_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboard/upload/upload_kb_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/db_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/db_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/db_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/db_core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/like/db_like.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/like/db_like.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/vote/db_vote.py" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/vote/db_vote.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo_handlers/process_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo_handlers/process_photo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenario/menuscenario/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/scenario/menuscenario/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenario/startscenario/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/scenario/startscenario/start.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +58,7 @@
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="76" />
+          <entry key="py" value="99" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -47,19 +66,19 @@
         <counts>
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="75" />
+          <entry key="Python" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="py" value="2745" />
+          <entry key="py" value="2801" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="2745" />
+          <entry key="Python" value="2801" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -73,19 +92,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="340">
+              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1540766668994" expanded="true" signature="1258:1279" ph="..." />
+                <marker date="1540766668994" expanded="true" signature="1378:1392" ph="..." />
+                <marker date="1540766668994" expanded="true" signature="2389:2394" ph="..." />
+                <marker date="1540766668994" expanded="true" signature="2416:2419" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persistence/db_core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,11 +122,86 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/persistence/db_actions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            <state relative-caret-position="221">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
-                <element signature="e#0#62#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persistence/vote/db_vote.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persistence/like/db_like.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scenario/menuscenario/menu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scenario/startscenario/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/callback_actions/callback_upload.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/constants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="167" selection-start-line="29" selection-start-column="167" selection-end-line="29" selection-end-column="167" />
             </state>
           </provider>
         </entry>
@@ -151,31 +255,32 @@
         <option value="$PROJECT_DIR$/resource/config.py" />
         <option value="$PROJECT_DIR$/persistence/User.py" />
         <option value="$PROJECT_DIR$/persistence/Database.py" />
-        <option value="$PROJECT_DIR$/scenario/startscenario/start.py" />
-        <option value="$PROJECT_DIR$/persistence/like/db_like.py" />
-        <option value="$PROJECT_DIR$/persistence/db_actions.py" />
-        <option value="$PROJECT_DIR$/persistence/vote/db_vote.py" />
-        <option value="$PROJECT_DIR$/scenario/menuscenario/menu.py" />
         <option value="$PROJECT_DIR$/callback_actions/profile/p_del.py" />
         <option value="$PROJECT_DIR$/callback_actions/profile/profile_actions.py" />
-        <option value="$PROJECT_DIR$/keyboard/profile/profile_kb_builder.py" />
         <option value="$PROJECT_DIR$/callback_actions/stop_vote.py" />
         <option value="$PROJECT_DIR$/callback_actions/callback_upload.py" />
-        <option value="$PROJECT_DIR$/photo_handlers/process_photo.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/persistence/db_core.py" />
-        <option value="$PROJECT_DIR$/keyboard/upload/upload_kb_builder.py" />
-        <option value="$PROJECT_DIR$/keyboard/rate/rating_kb_builder.py" />
-        <option value="$PROJECT_DIR$/callback_actions/profile_actions.py" />
-        <option value="$PROJECT_DIR$/callback_actions/delete_actions.py" />
-        <option value="$PROJECT_DIR$/callback_actions/callback_warn.py" />
-        <option value="$PROJECT_DIR$/constants.py" />
-        <option value="$PROJECT_DIR$/callback_actions/callback_stop_vote.py" />
-        <option value="$PROJECT_DIR$/callback_actions/callback_lnk.py" />
-        <option value="$PROJECT_DIR$/callback_actions/callback_like.py" />
-        <option value="$PROJECT_DIR$/callback_actions/callback_dislike.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/callback_actions/callback_lnk.py" />
+        <option value="$PROJECT_DIR$/callback_actions/callback_dislike.py" />
+        <option value="$PROJECT_DIR$/callback_actions/callback_like.py" />
+        <option value="$PROJECT_DIR$/callback_actions/callback_stop_vote.py" />
+        <option value="$PROJECT_DIR$/callback_actions/callback_warn.py" />
+        <option value="$PROJECT_DIR$/callback_actions/delete_actions.py" />
+        <option value="$PROJECT_DIR$/callback_actions/profile_actions.py" />
+        <option value="$PROJECT_DIR$/keyboard/profile/profile_kb_builder.py" />
+        <option value="$PROJECT_DIR$/keyboard/rate/rating_kb_builder.py" />
+        <option value="$PROJECT_DIR$/keyboard/upload/upload_kb_builder.py" />
+        <option value="$PROJECT_DIR$/photo_handlers/process_photo.py" />
+        <option value="$PROJECT_DIR$/persistence/user.py" />
+        <option value="$PROJECT_DIR$/persistence/db_core.py" />
+        <option value="$PROJECT_DIR$/persistence/db_actions.py" />
+        <option value="$PROJECT_DIR$/persistence/vote/db_vote.py" />
+        <option value="$PROJECT_DIR$/persistence/like/db_like.py" />
+        <option value="$PROJECT_DIR$/scenario/menuscenario/menu.py" />
+        <option value="$PROJECT_DIR$/constants.py" />
+        <option value="$PROJECT_DIR$/scenario/startscenario/start.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -231,12 +336,74 @@
             <path>
               <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="callback_actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="keyboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="keyboard" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="keyboard" type="462c0819:PsiDirectoryNode" />
+              <item name="rate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="keyboard" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="like" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="vote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="photo_handlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+              <item name="menuscenario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
+              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+              <item name="startscenario" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,7 +414,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540766410122" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540766669262" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -285,12 +452,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540759590043</updated>
       <workItem from="1540759591440" duration="61000" />
-      <workItem from="1540759683799" duration="6720000" />
+      <workItem from="1540759683799" duration="6978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6781000" />
+    <option name="totallyTimeSpent" value="7039000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,188 +559,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scenario/startscenario/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scenario/menuscenario/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/callback_actions/profile/p_del.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/empty.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo_handlers/process_photo.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <marker date="1540766064199" expanded="true" signature="123:128" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persistence/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persistence/db_core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1540766064191" expanded="true" signature="1258:1279" ph="..." />
-            <marker date="1540766064191" expanded="true" signature="1378:1392" ph="..." />
-            <marker date="1540766064191" expanded="true" signature="2389:2394" ph="..." />
-            <marker date="1540766064191" expanded="true" signature="2416:2419" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persistence/vote/db_vote.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persistence/like/db_like.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keyboard/upload/upload_kb_builder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keyboard/profile/profile_kb_builder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keyboard/rate/rating_kb_builder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callback_actions/profile_actions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="72" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callback_actions/callback_upload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callback_actions/callback_warn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callback_actions/callback_stop_vote.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callback_actions/delete_actions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/callback_actions/callback_lnk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constants.py">
+    <entry file="file://$PROJECT_DIR$/callback_actions/callback_dislike.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="12" selection-start-line="28" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="323">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,27 +597,178 @@
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/callback_actions/callback_dislike.py">
+    <entry file="file://$PROJECT_DIR$/callback_actions/callback_stop_vote.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state>
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback_actions/callback_warn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback_actions/delete_actions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback_actions/profile_actions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="72" selection-start-line="79" selection-start-column="72" selection-end-line="79" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyboard/profile/profile_kb_builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyboard/rate/rating_kb_builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyboard/upload/upload_kb_builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo_handlers/process_photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+            <marker date="1540766669137" expanded="true" signature="123:128" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/db_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/persistence/db_actions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
-            <element signature="e#0#62#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/vote/db_vote.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/like/db_like.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenario/menuscenario/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="167" selection-start-line="29" selection-start-column="167" selection-end-line="29" selection-end-column="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenario/startscenario/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1540766668994" expanded="true" signature="1258:1279" ph="..." />
+            <marker date="1540766668994" expanded="true" signature="1378:1392" ph="..." />
+            <marker date="1540766668994" expanded="true" signature="2389:2394" ph="..." />
+            <marker date="1540766668994" expanded="true" signature="2416:2419" ph="..." />
           </folding>
         </state>
       </provider>
@@ -610,14 +776,14 @@
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/callback_actions/callback_upload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
