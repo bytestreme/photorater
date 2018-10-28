@@ -1,9 +1,12 @@
-from sqlalchemy.orm import relationship, backref, sessionmaker
+from random import shuffle
+
+from sqlalchemy import and_
+from sqlalchemy.orm import sessionmaker
+
+from persistence.db_actions import intersection, db_value_get
 from persistence.db_core import engine, Base
 from persistence.user import User
-from persistence.db_actions import intersection, db_value_get
-from random import shuffle
-from sqlalchemy import and_
+
 
 # GET voteDlist of user(id)
 def db_votedlist_get(id):
@@ -126,6 +129,3 @@ def db_votelist_get(id):
     result = user.split('\n')
     s.commit()
     return result
-
-
-

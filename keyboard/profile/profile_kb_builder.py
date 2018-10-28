@@ -1,4 +1,5 @@
 from telebot import types
+
 from persistence.vote.db_vote import db_vote_get
 
 

@@ -1,6 +1,6 @@
-from persistence.db_actions import db_ph_get, db_ph_set
-from main import bot
 import constants
+from main import bot
+from persistence.db_actions import db_ph_get, db_ph_set
 
 
 def process_photo(message):

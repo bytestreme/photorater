@@ -1,8 +1,8 @@
-from main import bot
-from persistence.vote.db_vote import db_votelist_get, db_votelist_update
-from persistence.db_actions import db_rand_get, db_ph_get
-from keyboard.rate.rating_kb_builder import pages_keyboard
 import constants
+from keyboard.rate.rating_kb_builder import pages_keyboard
+from main import bot
+from persistence.db_actions import db_rand_get, db_ph_get
+from persistence.vote.db_vote import db_votelist_get, db_votelist_update
 
 
 def callback_warn(c):

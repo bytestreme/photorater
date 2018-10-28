@@ -1,5 +1,5 @@
-from main import bot
 import constants
+from main import bot
 
 
 def stop(c):

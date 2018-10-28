@@ -1,21 +1,21 @@
-import config
+import telebot
 from flask import Flask
 from flask import request
-import telebot
 from telebot import types
-from scenario.menuscenario import menu
-from scenario.startscenario import start
-from callback_actions.callback_like import callback_like
-from callback_actions.callback_dislike import callback_dislike
-from callback_actions.callback_warn import callback_warn
-from callback_actions.callback_lnk import lnk
-from callback_actions.profile_actions import profile_actions
-from callback_actions.delete_actions import del_actions
+
+import config
 import constants
+from callback_actions.callback_dislike import callback_dislike
+from callback_actions.callback_like import callback_like
+from callback_actions.callback_lnk import lnk
 from callback_actions.callback_stop_vote import stop
 from callback_actions.callback_upload import upload
+from callback_actions.callback_warn import callback_warn
+from callback_actions.delete_actions import del_actions
+from callback_actions.profile_actions import profile_actions
 from photo_handlers.process_photo import process_photo
-
+from scenario.menuscenario import menu
+from scenario.startscenario import start
 
 bot = telebot.TeleBot(config.token, threaded=False)
 

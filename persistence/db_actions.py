@@ -1,7 +1,9 @@
-from sqlalchemy.orm import relationship, backref, sessionmaker
+from random import randint
+
+from sqlalchemy.orm import sessionmaker
+
 from persistence.db_core import engine, Base
 from persistence.user import User
-from random import randint
 
 
 # GET (i)-th photo_id of (id) user
@@ -110,5 +112,3 @@ def intersection(lst1, lst2):
         return lst3
     except TypeError:
         return []
-
-

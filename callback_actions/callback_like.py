@@ -1,9 +1,9 @@
-from main import bot
-from persistence.vote.db_vote import db_vote_get, db_vote_set, db_vote_not_voted_get
-from persistence.like.db_like import db_like_get, db_like_set
-from persistence.db_actions import db_value_get, db_value_set, db_rand_get, db_ph_get
-from keyboard.rate.rating_kb_builder import pages_keyboard
 import constants
+from keyboard.rate.rating_kb_builder import pages_keyboard
+from main import bot
+from persistence.db_actions import db_value_get, db_value_set, db_rand_get, db_ph_get
+from persistence.like.db_like import db_like_get, db_like_set
+from persistence.vote.db_vote import db_vote_get, db_vote_set, db_vote_not_voted_get
 
 
 def callback_like(c):

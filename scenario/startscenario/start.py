@@ -1,6 +1,8 @@
 from telebot import types
-from persistence.db_actions import store
+
+import constants
 from main import bot
+from persistence.db_actions import store
 
 
 def start(message):
@@ -14,5 +16,4 @@ def start(message):
     else:
         bot.send_message(message.from_user.id, 'ID:' + str(message.from_user.id) + ' profile created.',
                          reply_markup=user_markup)
-        bot.send_message(message.from_user.id,
-                         'This bot is in developing stage, so number of your vote points was set to 99 so that you can access your profile. You can still earn them by Rating others')
+        bot.send_message(message.from_user.id, constants.INFO_DEV)

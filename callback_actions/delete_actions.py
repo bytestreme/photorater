@@ -1,8 +1,8 @@
-from main import bot
-from persistence.db_actions import db_value_set, db_value_get, db_ph_get, db_ph_set
-from keyboard.profile.profile_kb_builder import prof_keyboard
-from persistence.vote.db_vote import db_vote_get
 import constants
+from keyboard.profile.profile_kb_builder import prof_keyboard
+from main import bot
+from persistence.db_actions import db_value_get, db_ph_set
+from persistence.vote.db_vote import db_vote_get
 
 
 def del_actions(c):

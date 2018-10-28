@@ -27,3 +27,4 @@ LIKE_DISLIKE = "Like|Dislike: "
 NO_NEW_PHOTOS = "You have voted on all available users"
 
 INFO_STOPPED = "Stopped voting"
+INFO_DEV = 'This bot is in developing stage, so number of your vote points was set to 99 so that you can access your profile. You can still earn them by Rating others'

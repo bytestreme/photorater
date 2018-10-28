@@ -1,8 +1,9 @@
+import constants
+from keyboard.profile.profile_kb_builder import my_page_keyboard, my_keyboard, del_keyboard, del_page_keyboard, \
+    prof_keyboard
 from main import bot
 from persistence.db_actions import db_ph_get, db_value_get
-from keyboard.profile.profile_kb_builder import my_page_keyboard, my_keyboard, del_keyboard, del_page_keyboard, prof_keyboard
 from persistence.vote.db_vote import db_vote_get
-import constants
 
 
 def profile_actions(c):

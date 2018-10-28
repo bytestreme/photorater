@@ -1,6 +1,7 @@
-from persistence.user import User
-from sqlalchemy.orm import relationship, backref, sessionmaker
+from sqlalchemy.orm import sessionmaker
+
 from persistence.db_core import engine, Base
+from persistence.user import User
 
 
 # SET (init) of like to user(id)

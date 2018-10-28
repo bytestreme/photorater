@@ -1,8 +1,8 @@
+import constants
 from keyboard.profile.profile_kb_builder import prof_keyboard
+from main import bot
 from persistence.db_actions import db_value_get
 from persistence.vote.db_vote import db_vote_get, db_vote_set
-from main import bot
-import constants
 
 
 def lnk(c):

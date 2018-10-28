@@ -1,10 +1,11 @@
-from main import bot
-from persistence.vote.db_vote import db_votelist_update, db_votedlist_get, db_votelist_get, db_vote_get
-from persistence.db_actions import intersection
-from persistence.db_actions import db_ph_get, db_rand_get
-from keyboard.upload.upload_kb_builder import reg_keyboard
-from keyboard.rate.rating_kb_builder import pages_keyboard
 from keyboard.profile.profile_kb_builder import warn_key, lnk_key
+from keyboard.rate.rating_kb_builder import pages_keyboard
+from keyboard.upload.upload_kb_builder import reg_keyboard
+from main import bot
+from persistence.db_actions import db_ph_get, db_rand_get
+from persistence.db_actions import intersection
+from persistence.vote.db_vote import db_votelist_update, db_votedlist_get, db_votelist_get, db_vote_get
+
 
 def main_menu(m):
     if m.text == "Rаtе":
@@ -39,6 +40,3 @@ def main_menu(m):
             else:
                 bot.send_message(m.from_user.id, "You have voted enough to see your profile.",
                                  reply_markup=lnk_key(m.from_user.id))
-
-
-
