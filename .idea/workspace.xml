@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eca7b522-f7e2-4b88-a2e2-2f9fb6c5d82d" name="Default Changelist" comment="" />
+    <list default="true" id="eca7b522-f7e2-4b88-a2e2-2f9fb6c5d82d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="75" />
+          <entry key="py" value="76" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -44,7 +46,7 @@
         <counts>
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="74" />
+          <entry key="Python" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -59,98 +61,33 @@
           <entry key="Python" value="2745" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.compare" value="2" />
+          <entry key="git.branch.rebase" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constants.py">
+        <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="12" selection-start-line="28" selection-end-line="28" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/callback_actions/callback_like.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <marker date="1540765843417" expanded="true" signature="353:354" ph="..." />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/callback_actions/callback_dislike.py">
+        <entry file="file://$PROJECT_DIR$/persistence/db_actions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="1401">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <marker date="1540765843430" expanded="true" signature="362:363" ph="..." />
+                <element signature="e#0#62#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/callback_actions/callback_warn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <marker date="1540765843544" expanded="true" signature="251:256" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/callback_actions/callback_upload.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/callback_actions/callback_stop_vote.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <marker date="1540765843479" expanded="true" signature="52:57" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/callback_actions/delete_actions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <marker date="1540765843555" expanded="true" signature="254:255" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -176,6 +113,9 @@
       <find>my_page_keyboard</find>
       <find>my_to_prof</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -234,7 +174,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-96" />
     <option name="y" value="-15" />
     <option name="width" value="1867" />
@@ -257,6 +197,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -274,47 +215,7 @@
             <path>
               <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
-              <item name="callback_actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
-              <item name="keyboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
-              <item name="keyboard" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
-              <item name="keyboard" type="462c0819:PsiDirectoryNode" />
-              <item name="rate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
-              <item name="keyboard" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="like" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegram-photorater-master" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="vote" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="telegram-photorater-master" type="b2602c69:ProjectViewProjectNode" />
@@ -330,7 +231,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540765844161" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540766114649" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -368,12 +269,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540759590043</updated>
       <workItem from="1540759591440" duration="61000" />
-      <workItem from="1540759683799" duration="6153000" />
+      <workItem from="1540759683799" duration="6424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6214000" />
+    <option name="totallyTimeSpent" value="6485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -495,23 +396,13 @@
     <entry file="file://$PROJECT_DIR$/resource/empty.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/persistence/db_actions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photo_handlers/process_photo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1540765843526" expanded="true" signature="123:128" ph="..." />
+            <marker date="1540766064199" expanded="true" signature="123:128" ph="..." />
           </folding>
         </state>
       </provider>
@@ -542,10 +433,10 @@
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1540765843381" expanded="true" signature="1258:1279" ph="..." />
-            <marker date="1540765843381" expanded="true" signature="1378:1392" ph="..." />
-            <marker date="1540765843381" expanded="true" signature="2389:2394" ph="..." />
-            <marker date="1540765843381" expanded="true" signature="2416:2419" ph="..." />
+            <marker date="1540766064191" expanded="true" signature="1258:1279" ph="..." />
+            <marker date="1540766064191" expanded="true" signature="1378:1392" ph="..." />
+            <marker date="1540766064191" expanded="true" signature="2389:2394" ph="..." />
+            <marker date="1540766064191" expanded="true" signature="2416:2419" ph="..." />
           </folding>
         </state>
       </provider>
@@ -606,7 +497,6 @@
           <caret line="78" column="72" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <marker date="1540765843458" expanded="true" signature="297:302" ph="..." />
           </folding>
         </state>
       </provider>
@@ -624,7 +514,6 @@
           <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <marker date="1540765843544" expanded="true" signature="251:256" ph="..." />
           </folding>
         </state>
       </provider>
@@ -632,10 +521,9 @@
     <entry file="file://$PROJECT_DIR$/callback_actions/callback_stop_vote.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <marker date="1540765843479" expanded="true" signature="52:57" ph="..." />
           </folding>
         </state>
       </provider>
@@ -646,15 +534,7 @@
           <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <marker date="1540765843555" expanded="true" signature="254:255" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -664,7 +544,6 @@
           <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
-            <marker date="1540765843438" expanded="true" signature="223:224" ph="..." />
           </folding>
         </state>
       </provider>
@@ -682,18 +561,33 @@
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <marker date="1540765843417" expanded="true" signature="353:354" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/callback_actions/callback_dislike.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <marker date="1540765843430" expanded="true" signature="362:363" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/db_actions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1401">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
