@@ -1,7 +1,9 @@
 from random import randint
 
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.sql.functions import now
 
+from constants import INFO_NEW, INFO_EXIST, DB_EMPTY_STR, DB_FALSE_STR
 from persistence.db_core import engine, Base
 from persistence.user import User
 
@@ -12,7 +14,7 @@ def db_ph_get(id, i):
     session.configure(bind=engine)
     Base.metadata.create_all(engine)
     s = session()
-    result = "None"
+    result = DB_EMPTY_STR
     if i == 1:
         result = s.query(User).filter(User.uid == str(id)).first().photo1
     elif i == 2:
@@ -45,13 +47,13 @@ def store(id, username, first_name, last_name):
     s = session()
     user_exists = s.query(User).filter(User.uid == id).first()
     if user_exists is None:
-        new_user = User(uid=id, username=username, first_name=first_name, last_name=last_name, photo1='None',
-                        photo2='None', photo3='None', voted=99, like=0, dislike=0, start_time=func.now(),
-                        isvoted='False', rand=randint(1, 3), votedlist=None, votelist=None)
-        print('Creating new user with uid:' + str(id))
+        new_user = User(uid=id, username=username, first_name=first_name, last_name=last_name, photo1=DB_EMPTY_STR,
+                        photo2=DB_EMPTY_STR, photo3=DB_EMPTY_STR, voted=99, like=0, dislike=0, start_time=now(),
+                        isvoted=DB_FALSE_STR, rand=randint(1, 3), votedlist=None, votelist=None)
+        print(INFO_NEW + str(id))
         s.add(new_user)
     else:
-        print('Existing user with uid:' + str(id))
+        print(INFO_EXIST + str(id))
         result = True
     s.commit()
     return result
